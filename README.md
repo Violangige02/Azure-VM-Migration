@@ -14,3 +14,4 @@ I used an **SSH Key Pair** instead of a password. In 2026, password authenticati
 ### ⚠️ Troubleshooting Log (Critical Fix):
 * **Issue:** Received `ZonalAllocationFailed`. 
 * **Fix:** I identified a regional capacity bottleneck. I resolved this by removing the specific Availability Zone constraint, allowing Azure to allocate resources across the broader `eastus` region.
+<img width="1303" height="522" alt="fail to deploy VM" src="https://github.com/user-attachments/assets/82a360f9-e486-4067-a290-d88a71e7db12" />
